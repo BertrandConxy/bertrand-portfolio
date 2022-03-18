@@ -5,7 +5,7 @@ import myPhoto from '../../assets/profile1-removebg-preview.png';
 import HeaderSocials from './HeaderSocials';
 
 const Header = () => (
-  <header>
+  <header id="home">
     <div className="container header__container">
       <h5>Hello I&lsquo;m</h5>
       <h1>Bertrand Mutangana</h1>

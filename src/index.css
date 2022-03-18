@@ -84,6 +84,17 @@ a {
   transition: var(--transition);
 }
 
+button {
+  background: none;
+  border: none;
+  color: var(--color-primary);
+  transition: var(--transition);
+}
+
+button:hover {
+  color: var(--color-white);
+}
+
 a:hover {
   color: var(--color-white);
 }

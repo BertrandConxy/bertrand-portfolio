@@ -1,51 +1,43 @@
-import React from 'react';
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
-import { BiBookBookmark, BiMessageSquareDetail } from "react-icons/bi";
-import {RiServiceLine} from 'react-icons/ri';
-import { useState } from 'react';
+import React, { useState } from 'react';
+import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
+import { BiBookBookmark, BiMessageSquareDetail } from 'react-icons/bi';
+import { RiServiceLine } from 'react-icons/ri';
 import './nav.css';
 
 function Nav() {
-  const [activeNav, setActiveNav] =useState('#');
+  const [activeNav, setActiveNav] = useState('#home');
   const setActive = (path) => {
-    setActiveNav(path)
-  }
+    setActiveNav(path);
+  };
   return (
     <nav>
-      <a
-        href="#"
-        onClick={() => setActive("#")}
-        className={activeNav === "#" ? "active" : ""}
-      >
-        <AiOutlineHome />
+      <a href="#home" className={activeNav === '#home' ? 'active' : ''}>
+        <button type="button" onClick={() => setActive('#home')}>
+          <AiOutlineHome />
+        </button>
       </a>
-      <a
-        href="#about"
-        onClick={() => setActive("#about")}
-        className={activeNav === "#about" ? "active" : ""}
-      >
-        <AiOutlineUser />
+      <a href="#about" className={activeNav === '#about' ? 'active' : ''}>
+        <button type="button" onClick={() => setActive('#about')}>
+          <AiOutlineUser />
+        </button>
       </a>
       <a
         href="#experience"
-        onClick={() => setActive("#experience")}
-        className={activeNav === "#experience" ? "active" : ""}
+        className={activeNav === '#experience' ? 'active' : ''}
       >
-        <BiBookBookmark />
+        <button type="button" onClick={() => setActive('#experience')}>
+          <BiBookBookmark />
+        </button>
       </a>
-      <a
-        href="#services"
-        onClick={() => setActive("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <RiServiceLine />
+      <a href="#services" className={activeNav === '#services' ? 'active' : ''}>
+        <button type="button" onClick={() => setActive('#services')}>
+          <RiServiceLine />
+        </button>
       </a>
-      <a
-        href="#contact"
-        onClick={() => setActive("#contact")}
-        className={activeNav === "#contact" ? "active" : ""}
-      >
-        <BiMessageSquareDetail />
+      <a href="#contact" className={activeNav === '#contact' ? 'active' : ''}>
+        <button type="button" onClick={() => setActive('#contact')}>
+          <BiMessageSquareDetail />
+        </button>
       </a>
     </nav>
   );
