@@ -5,13 +5,14 @@ import { RiServiceLine } from 'react-icons/ri';
 import './nav.css';
 
 function Nav() {
-  const [activeNav, setActiveNav] = useState('#home');
+  const [activeNav, setActiveNav] = useState('');
   const setActive = (path) => {
     setActiveNav(path);
   };
+
   return (
     <nav>
-      <a href="#home" className={activeNav === '#home' ? 'active' : ''}>
+      <a href="#home" className={activeNav === '#home' ? 'active' : ''} path="/">
         <button type="button" onClick={() => setActive('#home')}>
           <AiOutlineHome />
         </button>

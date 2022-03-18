@@ -44,7 +44,7 @@ const testimonials = [
 
 const Testimonials = () => (
   <section id="testimonials">
-    <h5>Reviews from clients and felllow developers</h5>
+    <h5>Reviews from clients and fellow developers</h5>
     <h2>Testimonials</h2>
     <Swiper
       className="container testimonials__container"
