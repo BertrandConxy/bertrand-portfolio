@@ -1,21 +1,21 @@
-import React, { useRef } from "react";
-import emailjs from "emailjs-com";
-import { MdOutlineMail } from "react-icons/md";
-import { RiMessengerLine, RiWhatsappLine } from "react-icons/ri";
-import "./contact.css";
+import React, { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import { MdOutlineMail } from 'react-icons/md';
+import { RiMessengerLine, RiWhatsappLine } from 'react-icons/ri';
+import './contact.css';
 
 const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_gts30zg",
-      "template_t2qbnqo",
+      'service_gts30zg',
+      'template_t2qbnqo',
       form.current,
-      "Z5Ujvs7vo49NHSpip"
+      'Z5Ujvs7vo49NHSpip',
     );
 
-    e.target.reset()
+    e.target.reset();
   };
   return (
     <section id="contact">
