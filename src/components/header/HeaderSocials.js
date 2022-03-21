@@ -7,19 +7,31 @@ import { FaAngellist } from 'react-icons/fa';
 
 const HeaderSocials = () => (
   <div className="header__socials">
-    <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+    <a
+      href="https://www.linkedin.com/in/bertrandmutangana/"
+      target="_blank"
+      rel="noreferrer"
+    >
       <BsLinkedin />
     </a>
-    <a href="https://angelist.com" target="_blank" rel="noreferrer">
+    <a
+      href="https://angel.co/u/bertrand-mutangana"
+      target="_blank"
+      rel="noreferrer"
+    >
       <FaAngellist />
     </a>
-    <a href="https://github.com" target="_blank" rel="noreferrer">
+    <a href="https://github.com/BertrandConxy" target="_blank" rel="noreferrer">
       <BsGithub />
     </a>
-    <a href="https://medium.com" target="_blank" rel="noreferrer">
+    <a
+      href="https://medium.com/@BertrandMutangana/"
+      target="_blank"
+      rel="noreferrer"
+    >
       <BsMedium />
     </a>
-    <a href="https://dribble.com" target="_blank" rel="noreferrer">
+    <a href="https://dribbble.com/Conxy" target="_blank" rel="noreferrer">
       <BsDribbble />
     </a>
   </div>
