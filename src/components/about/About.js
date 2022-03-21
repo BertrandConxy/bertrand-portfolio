@@ -35,16 +35,26 @@ const About = () => (
         </div>
 
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          Stand-alone Full-Stack Developer. I am an author and a builder. If
+          you&lsquo;ve ever visited a website with an outstanding user interface
+          and had a memorable experience interacting with it, that&lsquo;s the
+          kind of websites I build. I&lsquo;ve been doing this for more than two
+          years. I studied at Microverse, an online software development school
+          based in California, USA. It equiped me with internation-standard
+          software development skills, remote working and working in a
+          cross-cultural environment. I worked with Juubix ltd, a collaboration
+          and finance software based in London, UK. I was part of the Front-end
+          development team and also digital marketing team. This equiped me with
+          the ability to work in various department in workspace while
+          maintaining the overall productivity. I can help start-ups and individuals
+          who want to turn their ideas into a finished product ready to serve
+          the community. I can also add value to any bussiness where I can help
+          them connect with their customers anytime everywhere.
         </p>
 
-        <a href="#contact" className="btn btn-primary">Let&lsquo;s talk</a>
+        <a href="#contact" className="btn btn-primary">
+          Let&lsquo;s talk
+        </a>
       </div>
     </div>
   </section>
