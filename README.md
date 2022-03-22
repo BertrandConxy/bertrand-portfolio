@@ -1,70 +1,101 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Portfolio-blue)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Stocks-market-trends
+> This is my portfolio website shocasing who I am, my skills, the srvices I provide, the  experience I have in this field and what other people who we have worked together talk about me. It is built with React.js
 
-## Available Scripts
+# Screenshoot
 
-In the project directory, you can run:
+## Mobile-First
+![portfolio-mobile](https://user-images.githubusercontent.com/90222110/159469034-5d0b1854-2155-449a-be58-1aeb6abf47be.png)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Desktop view
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![portfolio-desk](https://user-images.githubusercontent.com/90222110/159469025-640252c1-1814-42ac-b2a5-303ae91c99ea.png)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Live demo
+[Live Demo](https://bertrandmutangana.netlify.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Additional description about the project and its features.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Major languages (HTML, CSS, JavaScript)
 
-### `npm run eject`
+- Frameworks / Libraries
+  ```bash
+  - React (Front end library)
+  - React Bootstrap
+  - React icons
+  - React Testing Library
+  - Jest(for testing)
+  - Git(version control)
+  - ESLint(JavaScript linting)
+  - Stylelint(style linting)
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Technologies used 
+  
+  ``` bash
+  - Git(version control)
+  ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Getting Started
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To get a local copy up and running follow these simple example steps.
 
-## Learn More
+### Prerequisites
+ - A text editor(preferably Visual Studio Code)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Install
+  -  [Git](https://git-scm.com/downloads)
+  -  [Node](https://nodejs.org/en/download/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Usage
+#### Clone this repository
 
-### Code Splitting
+```bash
+$ git@github.com:clintonjosephs/Stock-metrics.git
+$ cd Stock-metrics
+```
+#### Run project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+$ npm install
+$ npm build
+$ npm run test
+$ npm start
+```
 
-### Analyzing the Bundle Size
+#### Open page in browser
+```bash
+$ runs on http://localhost:3000/
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Author
 
-### Making a Progressive Web App
+👤 **Bertrand Mutangana Ishimwe**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [@BertrandConxy](https://github.com/BertrandConxy)
+- Twitter: [@Bconxy](https://twitter.com/BertrandMutanga)
+- LinkedIn: [Bertrand Mutangana Ishimwe](https://www.linkedin.com/in/bertrandmutangana)
 
-### Advanced Configuration
+## 🤝 Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions, issues, and feature requests are welcome!
 
-### Deployment
+Feel free to check the [issues page](https://github.com/BertrandConxy/bertrand-portfolio/issues).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Acknowledgement
+Original design idea by EGATOR designer.
 
-### `npm run build` fails to minify
+## Show your support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](https://opensource.org/licenses/MIT) licensed.
