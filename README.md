@@ -58,7 +58,7 @@ To get a local copy up and running follow these simple example steps.
 #### Clone this repository
 
 ```bash
-$ git@github.com:clintonjosephs/Stock-metrics.git
+$ git@github.com:BertrandConxy.bertrand-portfolio.git
 $ cd Stock-metrics
 ```
 #### Run project
