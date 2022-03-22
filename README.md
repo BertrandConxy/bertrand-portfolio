@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Portfolio-blue)
 
 # Stocks-market-trends
-> This is my portfolio website shocasing who I am, my skills, the srvices I provide, the  experience I have in this field and what other people who we have worked together talk about me. It is built with React.js
+> This is my portfolio website showcasing who I am, my skills, the services I provide, the  experience I have in this field and what other people who we have worked together talk about me. It is built with React.js
 
 # Screenshoot
 
