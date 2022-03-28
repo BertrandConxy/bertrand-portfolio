@@ -59,7 +59,7 @@ To get a local copy up and running follow these simple example steps.
 
 ```bash
 $ git@github.com:BertrandConxy.bertrand-portfolio.git
-$ cd Stock-metrics
+$ cd bertrand-portfolio
 ```
 #### Run project
 
