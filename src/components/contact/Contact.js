@@ -1,10 +1,12 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
+import AnalyticsEventTracker from '../eventsTracker/AnalyticsEventTracker';
 import { MdOutlineMail } from 'react-icons/md';
 import { RiMessengerLine, RiWhatsappLine } from 'react-icons/ri';
 import './contact.css';
 
 const Contact = () => {
+  const gaEventTracker = AnalyticsEventTracker("Contact Me");
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -31,6 +33,7 @@ const Contact = () => {
               href="mailto:mutanganabertrand@gmail.com"
               target="_blank"
               rel="noreferrer"
+              onClick={() => gaEventTracker("Direct Email")}
             >
               Send a message
             </a>
@@ -44,6 +47,7 @@ const Contact = () => {
               href="https://m.me/bertrandMutangana"
               target="_blank"
               rel="noreferrer"
+              onClick={() => gaEventTracker("Via Messenger")}
             >
               Send a message
             </a>
@@ -57,6 +61,7 @@ const Contact = () => {
               href="https://api.whatsapp.com/send?phone=+250784274110"
               target="_blank"
               rel="noreferrer"
+              onClick={() => gaEventTracker("Via Whatsapp")}
             >
               Send a message
             </a>
@@ -78,7 +83,11 @@ const Contact = () => {
             placeholder="Your Message"
             required
           />
-          <button type="submit" className="btn btn-primary">
+          <button
+            type="submit"
+            className="btn btn-primary"
+            onClick={() => gaEventTracker("Text message")}
+          >
             Send Message
           </button>
         </form>
