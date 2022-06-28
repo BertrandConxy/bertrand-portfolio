@@ -1,5 +1,5 @@
 import React from 'react';
-import AnalyticsEventTracker from "../eventsTracker/AnalyticsEventTracker";
+import AnalyticsEventTracker from '../eventsTracker/AnalyticsEventTracker';
 import './portfolio.css';
 import ProjectImage1 from '../../assets/stock-market.png';
 import ProjectImage2 from '../../assets/space-travellers.png';
@@ -65,7 +65,7 @@ const projectData = [
 ];
 
 function Portfolio() {
-  const gaEventTracker = AnalyticsEventTracker("Visit Projects");
+  const gaEventTracker = AnalyticsEventTracker('Visit Projects');
   return (
     <section id="portfolio">
       <h5>My Recent work</h5>
@@ -84,7 +84,7 @@ function Portfolio() {
                 className="btn"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => gaEventTracker("View Source Code")}
+                onClick={() => gaEventTracker('View Source Code')}
               >
                 Source Code
               </a>
@@ -93,7 +93,7 @@ function Portfolio() {
                 className="btn btn-primary"
                 target="_blank"
                 rel="noreferrer"
-                onClick={() => gaEventTracker("View Live Demo")}
+                onClick={() => gaEventTracker('View Live Demo')}
               >
                 Live Demo
               </a>

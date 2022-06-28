@@ -9,7 +9,7 @@ import Testimonials from './components/testimonials/Testimonials';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 // Google Analytics
-const TRACKING_ID = "UA-215133258-1"; // My_TRACKING_ID
+const TRACKING_ID = 'UA-215133258-1'; // My_TRACKING_ID
 ReactGA.initialize(TRACKING_ID);
 
 const App = () => (
