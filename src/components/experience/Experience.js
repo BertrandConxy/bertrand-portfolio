@@ -63,19 +63,20 @@ const Experience = () => (
       <div className="experience__backend">
         <h3>Backend Development</h3>
         <div className="experience__content">
+
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icons" />
             <div>
-              <h4>PHP</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>MYSQL</h4>
+              <small className="text-light">Experienced</small>
             </div>
           </article>
 
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icons" />
             <div>
-              <h4>MYSQL</h4>
-              <small className="text-light">Intermediate</small>
+              <h4>POSTGRESQL</h4>
+              <small className="text-light">Experienced</small>
             </div>
           </article>
 
@@ -83,15 +84,15 @@ const Experience = () => (
             <BsPatchCheckFill className="experience__details-icons" />
             <div>
               <h4>RUBY</h4>
-              <small className="text-light">Beginner</small>
+              <small className="text-light">Intermediate</small>
             </div>
           </article>
 
           <article className="experience__details">
             <BsPatchCheckFill className="experience__details-icons" />
             <div>
-              <h4>NODE.JS</h4>
-              <small className="text-light">Beginner</small>
+              <h4>RUBY ON RAILS</h4>
+              <small className="text-light">Intermediate</small>
             </div>
           </article>
 
