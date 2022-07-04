@@ -16,7 +16,7 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I create High-fidelity prototypes</p>
+              <p>I create low-fidelity and High-fidelity prototypes</p>
             </li>
 
             <li>
