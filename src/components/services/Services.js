@@ -21,7 +21,7 @@ function Services() {
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I create mobile and web user interface designs</p>
+              <p>I create outstanding mobile and web user interface designs</p>
             </li>
 
             <li>
