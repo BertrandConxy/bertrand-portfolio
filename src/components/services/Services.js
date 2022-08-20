@@ -16,12 +16,12 @@ function Services() {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I create High-fidelity prototypes</p>
+              <p>I create low-fidelity and High-fidelity prototypes</p>
             </li>
 
             <li>
               <BiCheck className="service__list-icon" />
-              <p>I create mobile and web user interface designs</p>
+              <p>I create outstanding mobile and web user interface designs</p>
             </li>
 
             <li>
