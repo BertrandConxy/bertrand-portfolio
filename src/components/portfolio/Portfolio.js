@@ -2,7 +2,7 @@ import React from 'react';
 import AnalyticsEventTracker from '../eventsTracker/AnalyticsEventTracker';
 import './portfolio.css';
 import ProjectImage1 from '../../assets/stock-market.png';
-import ProjectImage2 from '../../assets/space-travellers.png';
+import ProjectImage2 from '../../assets/Space-1.png';
 import ProjectImage3 from '../../assets/spent.png';
 import ProjectImage4 from '../../assets/cinemash.png';
 import ProjectImage5 from '../../assets/isomo-online.png';
@@ -24,9 +24,9 @@ const projectData = [
     image: ProjectImage2,
     title: "Space Traveller's Hub",
     description:
-      'Browse available Space Rocket launch and dragons as announced by SpaceX corporation. Reserve on and join your favorite missions among the available. Built with React.js, Redux,React-testing-library, jest and bootstrap.',
+      'Fiction company that oragnises space tours. Browse and choose rocket and dragon tours. Reserve on and join your favorite missions among the available. Built with React.js, Redux,React-testing-library, jest and bootstrap.',
     github: 'https://github.com/BertrandConxy/Space-Travellers-Hub',
-    demo: 'https://spacecrafthub.netlify.app/',
+    demo: 'https://space-traveli.netlify.app/',
   },
 
   {
