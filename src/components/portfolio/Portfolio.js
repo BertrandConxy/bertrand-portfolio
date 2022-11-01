@@ -4,7 +4,7 @@ import './portfolio.css';
 import ProjectImage1 from '../../assets/stock-market.png';
 import ProjectImage2 from '../../assets/Space-1.png';
 import ProjectImage3 from '../../assets/spent.png';
-import ProjectImage4 from '../../assets/cinemash.png';
+import ProjectImage4 from '../../assets/classic-blog.png';
 import ProjectImage5 from '../../assets/isomo-online.png';
 import ProjectImage6 from '../../assets/umuhanzi-thumbnail.jpg';
 
@@ -42,11 +42,11 @@ const projectData = [
   {
     id: 4,
     image: ProjectImage4,
-    title: 'Cinemash',
+    title: 'Classic Blog app',
     description:
-      'Browse different movies and find the detailed information about each. Like, comment and reserve your favorite on Cinemash. Built with Vanilla ES6 Javascript, Jest, Webpack, html and css.',
-    github: 'https://github.com/BertrandConxy/JS-Capstone-Project',
-    demo: 'https://cinemash.netlify.app/',
+      'Create content to share with the people. Read, like and comment on your favorite blogger\'s post. Built with Ruby, Ruby on Rails, devise, and Bootstrap',
+    github: 'https://github.com/BertrandConxy/classic-blog',
+    demo: 'https://cclassic-blog.herokuapp.com/',
   },
 
   {
