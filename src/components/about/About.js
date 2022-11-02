@@ -30,7 +30,7 @@ const About = () => (
           <article className="about__card">
             <FaFolderOpen className="about__icon" />
             <h5>Projects</h5>
-            <small>40+ Completed projects</small>
+            <small>50+ Completed projects</small>
           </article>
         </div>
 
